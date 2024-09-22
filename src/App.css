@@ -5,7 +5,14 @@
 .bg-main-color {
     background-color: #212529;
 }
+.border-main-color{
+    border-color: #212529;
+}
 
 .bg-secondary-color {
     background-color: #343a40;
+}
+
+.bg-third-color {
+    background-color: #495057;
 }
