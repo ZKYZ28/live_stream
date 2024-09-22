@@ -8,9 +8,9 @@ import {faBell} from '@fortawesome/free-solid-svg-icons';
 const HomePage = () => {
     return (
         <PageWrapper>
-            <div className="h-[100vh] w-[92%] bg-main-color flex flex-col p-8">
+            <div className="h-[100vh] w-[92%] bg-main-color flex flex-col p-6">
 
-                <div className="flex flex-grow-[2] gap-8">
+                <div className="flex h-[60vh] gap-8">
 
                     <div className="w-2/3 bg-secondary-color rounded-xl">
                         <img id="videoFeed" src="http://192.168.0.16:5000/video_feed"
@@ -35,7 +35,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-grow-[1] gap-8 pt-8">
+                <div className="flex h-[35vh] gap-8 pt-8">
 
                     <div className="w-2/3 bg-secondary-color rounded-xl p-4 flex justify-between">
                         <div className="bg-red-500 w-1/3 border-2 border-green-500 rounded-xl overflow-hidden">
